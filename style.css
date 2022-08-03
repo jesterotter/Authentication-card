@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #919AAB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+   
+}
+
+.card{
+    background-color: #F3F3F9;
+    padding: 20px 10px 20px 20px;
+    border-radius: 25px; /*give rounded smooth corners*/
+    width: 30%;
+    height: auto;
+    color: #1d3153;
+    box-shadow: 10px 20px 30px 10px #62686f;
+    
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    padding: 20px 0 20px 0;
+    justify-content: space-around;
+}
+
+img{
+    border: transparent;
+    border-radius: 50%;
+    height: 90px;
+    max-width: 100%;
+}
+
+.cta{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cta > i{
+    padding: 20px 10px 20px 0;
+    align-self: center;
+    justify-content: center;
+}
+
+.info2{
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+h3{
+    font-size: large;
+    font-weight: 20px;
+    padding: 20px 55px 20px 0;
+    align-items: center;
+    justify-content: center; 
+}
+
+button{
+    /*font-size: medium;
+    font-weight: 18px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100px;*/
+font-size: medium;
+align-self: center; /* centers the button */
+justify-content: center;
+width: 70px;
+height: 50px;
+padding-right: 4.5em;
+background-color: #1d3153;
+color: #F3F3F9;
+border-radius: 20px;
+border-style: none;
+   transition: all 300ms ease;
+   cursor: pointer;
+   overflow: hidden;
+   
+}
+
+button:hover{
+    background-color: #2d4061;
+}
+
+button:active{
+    font-size: large;
+    background-color: #1d3153;
+    box-shadow: 0 5px #62686f;
+    transform: translateY(8px);
+}
+
+a{
+    padding: 20px 0 20px 0;
+    color: #1d3153;
+}
+
+#pwd, #email{
+    border-radius: 11px;
+    width: 65%;
+    height: 30px;
+    border-style: double;
+    border-color: #000;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+}
+#icon{/*for putting the icon in the text field*/
+   padding: 8px 0 0 0;
+   min-width: 36px;
+   color: #666667;
+   opacity: 0.7;
+   text-align: center;
+   position: absolute;
+   size:40px;
+}
+
+#eye, #switch{
+    color: #666667;
+    size: 36px;
+}
