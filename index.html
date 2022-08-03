@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <d class="card">
+    <h1>Enter your password</h1>
+    <div class = "info">
+    <img src="./profile_pic.jpg" alt="Profile picture">
+    <div class="info2">
+    <span class="column-1">Business Account</span>
+    <h2 class="column-2">Adam Smith</h2>
+</div>
+</div>
+    <label for="email">Email:</label>
+    <i class="fa-solid fa-envelope" id="icon"></i>
+    <input type="email" id="email" name="email">
+    <br><br>
+    <label for="pwd">Password:</label>
+    <i class="fa fa-lock" id="icon"></i> 
+    <input type="password" id="pwd" name="pwd" minlength="8">
+    <i class="fa-solid fa-eye-slash" id="eye"></i>
+    <br><br>
+    <div class="cta">
+    <i class="fa-solid fa-toggle-off" id="switch" ></i>
+    <h3 id="option">Stay signed in</h3>
+    <button type="button">Continue</button>
+</div>
+   <a href= "#">Reset password</a>
+</div>
+   <script src ="script.js" ></script>
+</body>
+</html>
